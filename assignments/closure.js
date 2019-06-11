@@ -1,7 +1,11 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-
-
+let var1 = 1
+function outerScope(){
+  let var2 = 2;
+  return var1 + var2;
+}
+console.log(outerScope());
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
