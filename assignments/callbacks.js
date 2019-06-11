@@ -36,7 +36,7 @@ function getLength(arr, cb) {
 
 function last(arr, cb) {
   // last passes the last item of the array into the callback.
-  return cb(arr.length - 1);
+  return cb(arr[arr.length - 1]);
 }
 
 function sumNums(x, y, cb) {
@@ -55,7 +55,7 @@ function contains(item, list, cb) {
   return cb(list.includes(item));
 } 
 
-contains('Gum', items, showResult);
+
 
 
 /* STRETCH PROBLEM */
